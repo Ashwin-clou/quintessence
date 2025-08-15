@@ -1,0 +1,136 @@
+/* Careers Page Styles */
+
+/* Careers Page Background */
+.careers-page {
+  background: url("./images/bg1.jpg") no-repeat center center fixed;
+  background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.careers-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* Light overlay for readability */
+  z-index: 0;
+}
+
+.careers-page > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* General Container */
+.careers-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Page Title */
+.careers-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #001f54; /* Navy blue */
+}
+
+/* Subtitle */
+.careers-subtitle {
+  font-size: 20px;
+  color: #001f54;
+  margin-bottom: 40px;
+}
+
+/* Section Styling */
+.careers-section {
+  margin-bottom: 40px;
+}
+
+.careers-section h2 {
+  font-size: 26px;
+  color: #001f54; /* Navy blue */
+  margin-bottom: 15px;
+}
+
+.careers-section p {
+  font-size: 16px;
+  color: #333;
+  max-width: 850px;
+  margin: 0 auto 20px auto;
+}
+
+/* Lists */
+.careers-section ul,
+.careers-section ol {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: left;
+  display: inline-block;
+}
+
+.careers-section li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+}
+
+/* Apply Box Highlight */
+.apply-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.careers-hiring-section {
+  background: url("./images/Careers.jpg") no-repeat center center;
+  background-size: contain;
+  height: 450px;
+  margin-top: 50px;
+}
+/* Careers Page Background */
+/* .careers-hiring-section {
+  background: url("/images/bg1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 450px;
+  margin-top: 50px;
+} */
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .careers-title {
+    font-size: 28px;
+  }
+  .careers-subtitle {
+    font-size: 18px;
+  }
+  .careers-section h2 {
+    font-size: 22px;
+  }
+  .careers-hiring-section {
+    height: 300px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .careers-title {
+    font-size: 24px;
+  }
+  .careers-subtitle {
+    font-size: 16px;
+  }
+  .careers-hiring-section {
+    height: 220px;
+  }
+}

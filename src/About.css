@@ -1,0 +1,163 @@
+/* Root container */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 5% 10%;
+    background-color: #f9f9f9;
+    color: #000000;
+  }
+  
+  /* Header section */
+  .about-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 28px;
+    color: #233f92;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .border-img {
+    margin: 10px auto;
+    display: block;
+    width: 160px;
+  }
+  
+  /* Intro text */
+  .about-intro p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  /* Mission & Vision block */
+  .about-mission-vision {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .about-mission-vision > div {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 25px;
+    border-left: 4px solid #233f92;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+  }
+  
+  .about-mission-vision h2 {
+    font-size: 18px;
+    color: #233f92;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  /* Core Values */
+  .about-values {
+    margin-top: 40px;
+  }
+  
+  .about-values h2 {
+    font-size: 18px;
+    color: #233f92;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about-values ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .about-values li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  .about-values li::before {
+    content: "✔";
+    color: #0071bd;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Services */
+  .about-services {
+    margin-top: 40px;
+  }
+  
+  .about-services h2 {
+    font-size: 18px;
+    color: #233f92;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about-services ul {
+    padding-left: 20px;
+  }
+  
+  .about-services li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Approach */
+  .about-approach,
+  .about-clients {
+    margin-top: 40px;
+  }
+  
+  .about-approach h2,
+  .about-clients h2 {
+    font-size: 18px;
+    color: #233f92;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about-approach p,
+  .about-clients p {
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  
+  /* Image section */
+  .about-image-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .about-image-section img {
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-mission-vision {
+      flex-direction: column;
+    }
+  
+    .about-container {
+      padding: 8% 5%;
+    }
+  
+    .about-image-section img {
+      width: 100%;
+    }
+  }
+  
