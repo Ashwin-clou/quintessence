@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/searchlabs/static/css/main.97c1b797.css",
-    "main.js": "/searchlabs/static/js/main.9736fd80.js",
+    "main.js": "/searchlabs/static/js/main.273f40ad.js",
     "static/js/787.8fab4084.chunk.js": "/searchlabs/static/js/787.8fab4084.chunk.js",
     "static/media/HR-1.jpg": "/searchlabs/static/media/HR-1.afa6af4b0e9477a7606f.jpg",
-    "static/media/contact-bg.jpg": "/searchlabs/static/media/contact-bg.bddc8749fc95421aeed5.jpg",
     "static/media/HR-3.jpg": "/searchlabs/static/media/HR-3.9a96f8fdd05c0f7107f9.jpg",
     "static/media/leadership.jpg": "/searchlabs/static/media/leadership.db394e2460ea593d0255.jpg",
     "static/media/Diversity.jpg": "/searchlabs/static/media/Diversity.027068f195d6273ed0dc.jpg",
@@ -19,11 +18,11 @@
     "static/media/logo.jpg": "/searchlabs/static/media/logo.7a336a517638e7f3fbad.jpg",
     "index.html": "/searchlabs/index.html",
     "main.97c1b797.css.map": "/searchlabs/static/css/main.97c1b797.css.map",
-    "main.9736fd80.js.map": "/searchlabs/static/js/main.9736fd80.js.map",
+    "main.273f40ad.js.map": "/searchlabs/static/js/main.273f40ad.js.map",
     "787.8fab4084.chunk.js.map": "/searchlabs/static/js/787.8fab4084.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97c1b797.css",
-    "static/js/main.9736fd80.js"
+    "static/js/main.273f40ad.js"
   ]
 }
