@@ -132,9 +132,8 @@ function Home() {
             </div>
 
             <div className="Copyrights">
-    <p>© 2023 <a>Quintessence Search Labs</a></p>
-</div>
-
+                <p>© 2023 Quintessence Search Labs</p>
+            </div>
         </div>
     );
 }
