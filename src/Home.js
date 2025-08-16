@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 import SimpleImageSlider from "react-simple-image-slider";
 import HR3 from "./images/HR-3.jpg";
@@ -13,20 +13,13 @@ import Technology from "./images/Technology.jpg";
 import Investment from "./images/Investment.jpg";
 import Management from "./images/Management.jpg";
 import Careers from "./images/Careers.jpg";
-import Countup from 'react-countup';
+// import Countup from 'react-countup'; // still unused, commented for now
 
 function Home() {
-
     const sliderImages = [
-        {
-            url: HR3,
-        },
-        {
-            url: HR1,
-        },
-        {
-            url: leadership,
-        },
+        { url: HR3 },
+        { url: HR1 },
+        { url: leadership },
     ];
 
     return (
@@ -41,6 +34,7 @@ function Home() {
                     showNavs={true}
                 />
             </div>
+
             <div className="item" id="about">
                 <div className="leftalgin">
                     <img src={about} width={500} height={410} alt="About us" />
@@ -50,7 +44,7 @@ function Home() {
                         <h2>About Quintessence Search Labs</h2>
                     </div>
                     <div>
-                        <img src={border} />
+                        <img src={border} alt="Decorative border" />
                     </div>
                     <div>
                         <p>
@@ -66,54 +60,62 @@ function Home() {
                     </div>
                 </div>
             </div>
+
             {/* <div className="statics-data item">
                 <Countup end={100} duration={5}/>
             </div> */}
+
             <div className="area-content">
                 <div className="about-title slideInDown">
                     <h2>Area's Expertise</h2>
                 </div>
                 <div id="border-img">
-                    <img src={border} />
+                    <img src={border} alt="Decorative border" />
                 </div>
                 <div className="areas-imgs">
                     <div>
-                        <img src={Consumer} width="350" height="250"/>
+                        <img src={Consumer} width="350" height="250" alt="Consumer expertise" />
                     </div>
                     <div>
-                        <img src={Investment} width="350" height="250"/>
+                        <img src={Investment} width="350" height="250" alt="Investment expertise" />
                     </div>
                     <div>
-                        <img src={Diversity} width="350" height="250"/>
+                        <img src={Diversity} width="350" height="250" alt="Diversity expertise" />
                     </div>
                     <div>
-                        <img src={Financial} width="350" height="250"/>
+                        <img src={Financial} width="350" height="250" alt="Financial expertise" />
                     </div>
                     <div>
-                        <img src={Technology} width="350" height="250"/>
+                        <img src={Technology} width="350" height="250" alt="Technology expertise" />
                     </div>
                     <div>
-                        <img src={Management} width="350" height="250"/>
+                        <img src={Management} width="350" height="250" alt="Management expertise" />
                     </div>
                 </div>
             </div>
+
             <div className="Careers">
                 <div className="about-title slideInDown">
                     <h2>Careers</h2>
                 </div>
                 <div id="border-img">
-                    <img src={border} />
+                    <img src={border} alt="Decorative border" />
                 </div>
                 <div>
-                    <img src={Careers} />
+                    <img src={Careers} alt="Careers opportunities" />
                 </div>
                 <div>
-                    <p  id="mail-text">Interested to join us? Why wait, email your profile to <a href="mailto:hr@quintessencesearchlabs.in">hr@quintessencesearchlabs.in</a></p>
+                    <p id="mail-text">
+                        Interested to join us? Why wait, email your profile to{" "}
+                        <a href="mailto:hr@quintessencesearchlabs.in">hr@quintessencesearchlabs.in</a>
+                    </p>
                 </div>
             </div>
+
             <div className="Contact-area">
                 <p>We are here to answer your questions 24/7, NEED A CONSULTATION?</p>
             </div>
+
             <div className="Contact-details">
                 <div className="det">
                     <h3>Our Address</h3>
@@ -128,12 +130,12 @@ function Home() {
                     <p>Phone: +91 12345 67890</p>
                 </div>
             </div>
+
             <div className="Copyrights">
                 <p>&#169; 2023 <a>Quintessence Search Labs</a></p>
             </div>
         </div>
     );
 }
-
 
 export default Home;

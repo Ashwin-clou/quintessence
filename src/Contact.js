@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./Contact.css";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import contactBg from "./images/contact-bg.jpg";
+
 
 const Contact = () => {
   const form = useRef();

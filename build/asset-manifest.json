@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/searchlabs/static/css/main.97c1b797.css",
+    "main.js": "/searchlabs/static/js/main.9736fd80.js",
+    "static/js/787.8fab4084.chunk.js": "/searchlabs/static/js/787.8fab4084.chunk.js",
+    "static/media/HR-1.jpg": "/searchlabs/static/media/HR-1.afa6af4b0e9477a7606f.jpg",
+    "static/media/contact-bg.jpg": "/searchlabs/static/media/contact-bg.bddc8749fc95421aeed5.jpg",
+    "static/media/HR-3.jpg": "/searchlabs/static/media/HR-3.9a96f8fdd05c0f7107f9.jpg",
+    "static/media/leadership.jpg": "/searchlabs/static/media/leadership.db394e2460ea593d0255.jpg",
+    "static/media/Diversity.jpg": "/searchlabs/static/media/Diversity.027068f195d6273ed0dc.jpg",
+    "static/media/about-us.jpg": "/searchlabs/static/media/about-us.0dc596f92650e2c061de.jpg",
+    "static/media/Technology.jpg": "/searchlabs/static/media/Technology.e37e281ec87e299673ae.jpg",
+    "static/media/Consumer.jpg": "/searchlabs/static/media/Consumer.942b498c411c2f0b4cc3.jpg",
+    "static/media/Management.jpg": "/searchlabs/static/media/Management.bf6f067bedc9e12edb79.jpg",
+    "static/media/Financial.jpg": "/searchlabs/static/media/Financial.15e3ff6e2b73c125fd14.jpg",
+    "static/media/contact-bg.webp": "/searchlabs/static/media/contact-bg.ad9926761085fd9ec079.webp",
+    "static/media/Careers.jpg": "/searchlabs/static/media/Careers.87b6aad029951e46f5cc.jpg",
+    "static/media/Investment.jpg": "/searchlabs/static/media/Investment.91bbdff7904dac5eb847.jpg",
+    "static/media/logo.jpg": "/searchlabs/static/media/logo.7a336a517638e7f3fbad.jpg",
+    "index.html": "/searchlabs/index.html",
+    "main.97c1b797.css.map": "/searchlabs/static/css/main.97c1b797.css.map",
+    "main.9736fd80.js.map": "/searchlabs/static/js/main.9736fd80.js.map",
+    "787.8fab4084.chunk.js.map": "/searchlabs/static/js/787.8fab4084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97c1b797.css",
+    "static/js/main.9736fd80.js"
+  ]
+}
